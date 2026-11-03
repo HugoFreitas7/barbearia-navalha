@@ -10,7 +10,16 @@ header img {
     width: 20rem;
     height: 5rem;
 }
-header nav {
-    display: inline-block;
-    margin: 10px 10px;
+
+#inicio {
+    min-height: 28rem;
+    padding: 3rem 1.5rem;
+    color: #fff;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../img/barbearia-principal.jpg") center / cover no-repeat;
+}
+
+#inicio > img {
+    display: none;
 }
