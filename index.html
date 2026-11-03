@@ -35,31 +35,34 @@
         </nav>
     </header>
         <main>
-            <section id="inicio">
+            <section aria-labelledby="inicio" id="inicio">
                 <h1>Seu estilo, nossa navalha.</h1>
                 <p>Transforme seu visual na melhor barbearia de Belém</p>
                 <button id="agendar" type="button">AGENDE AGORA</button>
             </section>
-            <section id="sobre">
+            <section aria-labelledby="sobre" id="sobre">
                 <h2>Sobre nós</h2>
                 <p>Na Barbearia Navalha, oferecemos cortes de cabelo e barba de alta qualidade, com profissionais experientes e um ambiente acolhedor. Nosso objetivo é proporcionar uma experiência única para cada cliente.</p>
             </section>
-            <section id="servicos">
+            <section aria-labelledby="servicos" id="servicos">
                 <h2>Nossos serviços</h2>
-                <article>
+                <article class="card-servico">
+                    <img src="img/cabelo.png" alt="Corte de cabelo masculino sendo finalizado">
                     <h3>Corte de cabelo</h3>
                     <p>Oferecemos cortes de cabelo para todos os estilos e necessidades.</p>
                 </article>
-                <article>
+                <article class="card-servico">
+                    <img src="img/barba.png" alt="Barba sendo modelada">
                     <h3>Barba</h3>
                     <p>Tratamentos e design de barba para um visual impecável.</p>
                 </article>
-                <article>
+                <article class="card-servico">
+                    <img src="img/combo.png" alt="Combo de serviços">
                     <h3>Combo</h3>
                     <p>Combinação de serviços para um visual impecável.</p>
                 </article>
             </section>
-            <section id="agendar">
+            <section aria-labelledby="agendar" id="agendar">
                 <h2>Agende seu horário</h2>
                 <form action="#" method="post">
                     <label for="nome">Nome:</label>
@@ -88,7 +91,7 @@
                     <button type="submit">Agendar</button>
                 </form>
             </section>
-            <footer>
+            <footer aria-labelledby="contato">
                 <h2>Contato</h2>
                 <p>Entre em contato conosco para agendar seu horário ou tirar dúvidas.</p><br>
                 <p>Telefone: (91) 99999-9999</p>
